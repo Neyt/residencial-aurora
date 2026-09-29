@@ -57,6 +57,8 @@ section.blk h2{font-size:clamp(28px,4vw,40px);margin-bottom:12px}
 .card h3{font-size:24px;margin-bottom:6px}
 .card ul,.list{margin:12px 0 0;padding-left:20px}
 .card li,.list li{margin:4px 0}
+.shot{display:block;width:100%;height:auto;border-radius:10px;margin-top:8px}
+.cap{font-size:12px;color:var(--ink2);margin:6px 0 0}
 .tag{display:inline-block;font-size:12px;font-weight:700;padding:3px 10px;border-radius:999px;background:var(--greenTint);color:var(--green);margin-bottom:10px}
 .steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;counter-reset:s;padding:0;list-style:none;margin:0}
 .steps li{counter-increment:s;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px}
@@ -157,13 +159,8 @@ footer .wrap{padding-bottom:8px}
         <article class="card">
           <span class="tag">Modelo A</span>
           <h3>45 m² construidos</h3>
-          <svg viewBox="0 0 320 130" width="100%" role="img" aria-label="Ilustración esquemática de casa de una planta">
-            <rect x="0" y="0" width="320" height="130" fill="#dfe9df" rx="8"/>
-            <polygon points="60,60 160,20 260,60" fill="#b4432b"/>
-            <rect x="72" y="60" width="176" height="56" fill="#fffdf8" stroke="#1f4d3a" stroke-width="2"/>
-            <rect x="92" y="76" width="34" height="40" fill="#1f4d3a"/><rect x="150" y="76" width="30" height="24" fill="#a9d9bd" stroke="#1f4d3a" stroke-width="2"/><rect x="200" y="76" width="30" height="24" fill="#a9d9bd" stroke="#1f4d3a" stroke-width="2"/>
-            <rect x="0" y="116" width="320" height="14" fill="#2f6b52"/>
-          </svg>
+          <img class="shot" src="modelo-a.jpg" width="1344" height="752" loading="lazy" alt="Ilustración referencial del Modelo A: casa de una planta con pórtico, fachada crema y muro terracota, jardín frontal">
+          <p class="cap">Ilustración referencial generada digitalmente.</p>
           <ul>
             <li>2 dormitorios</li>
             <li>1 baño completo</li>
@@ -174,13 +171,8 @@ footer .wrap{padding-bottom:8px}
         <article class="card">
           <span class="tag">Modelo B</span>
           <h3>55 m² construidos</h3>
-          <svg viewBox="0 0 320 130" width="100%" role="img" aria-label="Ilustración esquemática de casa de una planta más amplia">
-            <rect x="0" y="0" width="320" height="130" fill="#dfe9df" rx="8"/>
-            <polygon points="40,60 160,16 280,60" fill="#b4432b"/>
-            <rect x="52" y="60" width="216" height="56" fill="#fffdf8" stroke="#1f4d3a" stroke-width="2"/>
-            <rect x="70" y="76" width="34" height="40" fill="#1f4d3a"/><rect x="128" y="76" width="30" height="24" fill="#a9d9bd" stroke="#1f4d3a" stroke-width="2"/><rect x="176" y="76" width="30" height="24" fill="#a9d9bd" stroke="#1f4d3a" stroke-width="2"/><rect x="224" y="76" width="30" height="24" fill="#a9d9bd" stroke="#1f4d3a" stroke-width="2"/>
-            <rect x="0" y="116" width="320" height="14" fill="#2f6b52"/>
-          </svg>
+          <img class="shot" src="modelo-b.jpg" width="1344" height="752" loading="lazy" alt="Ilustración referencial del Modelo B: casa de una planta con pórtico amplio, cochera lateral, fachada arena con franja verde">
+          <p class="cap">Ilustración referencial generada digitalmente.</p>
           <ul>
             <li>3 dormitorios</li>
             <li>1 baño completo y medio baño</li>
